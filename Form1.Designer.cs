@@ -20,7 +20,14 @@ namespace AdoNetDemo
             }
             base.Dispose(disposing);
         }
-
+        protected override void Dispose2(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
         #region Windows Form Designer generated code
 
         /// <summary>
