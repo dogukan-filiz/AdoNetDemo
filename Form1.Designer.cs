@@ -7,7 +7,7 @@ namespace AdoNetDemo
         ///  Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
+        //TEST YAPILDI
         /// <summary>
         ///  Clean up any resources being used.
         /// </summary>
